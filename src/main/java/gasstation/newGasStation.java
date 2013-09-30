@@ -7,11 +7,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
-import net.bigpoint.assessment.gasstation.GasPump;
-import net.bigpoint.assessment.gasstation.GasStation;
-import net.bigpoint.assessment.gasstation.GasType;
-import net.bigpoint.assessment.gasstation.exceptions.GasTooExpensiveException;
-import net.bigpoint.assessment.gasstation.exceptions.NotEnoughGasException;
+import net.assessment.gasstation.GasPump;
+import net.assessment.gasstation.GasStation;
+import net.assessment.gasstation.GasType;
+import net.assessment.gasstation.exceptions.GasTooExpensiveException;
+import net.assessment.gasstation.exceptions.NotEnoughGasException;
 
 /**
  * Implementation of a GasStation. It's thread safe.
